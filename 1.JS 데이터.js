@@ -283,7 +283,8 @@ function checkType(data) {
 console.log(checkType(null));
 console.log(checkType(123));
 console.log(checkType('Hello'));
-console.log(checkType(function() {}));
+console.log(checkType(function() {})
+);
 
 
 
