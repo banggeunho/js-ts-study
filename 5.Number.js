@@ -40,6 +40,7 @@ console.log(Number.isInteger(pi)); // false
 //Number.parseInt() 또는 parseInt()
 // 주어진 값(숫자, 문자)를 파싱해 특정 진수(radix)의 정수로 반환합니다.
 
+//parseFloat()에는 두번째 인수를 제공하지 않는다.
 const str = '3.1415926535'
 const num3 = 3.1415926535
 
