@@ -67,7 +67,7 @@ console.log(str.toUpperCase());
 
 // trim()
 // 대상 문자의 앞뒤 공백 문자를(space, tab 등) 제거한 새로운 문자를 반환합니다.
-
+// 중간에 있는 공백은 제거되지 않습니다.
 const str6 = '  Geunho!  '
 console.log(str6.trim());
 console.log(str6.trimStart());
