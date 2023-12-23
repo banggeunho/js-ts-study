@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "lerna": "^8.0.1",
-    "typescript": "file:../typescript"
-  }
+    "typescript": "^0.0.1"
+  },
+  "gitHead": "5db23033a024b78ec1c639fdf296470dc5637a34"
 }
