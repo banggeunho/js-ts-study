@@ -1,0 +1,30 @@
+{
+  "name": "javascript",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "banggeunho <panggeunho@gmail.com>",
+  "homepage": "https://github.com/banggeunho/js-ts-study#readme",
+  "license": "ISC",
+  "main": "lib/javascript.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banggeunho/js-ts-study.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/javascript.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/banggeunho/js-ts-study/issues"
+  },
+  "dependencies": {
+    "lerna": "^8.0.1",
+    "typescript": "file:../typescript"
+  }
+}
