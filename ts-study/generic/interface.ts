@@ -22,3 +22,13 @@ const dataD: MyData<number[]> = {
     name: "Data D",
     value: [1, 2, 3, 4]
 }
+
+interface MyDataTypeLimit<T extends string | number> {
+    name: string
+    value: T
+}
+
+const dataAB: MyDataTypeLimit<string> = {
+    name: "Data AB",
+    value: "ohnamnan"
+}
