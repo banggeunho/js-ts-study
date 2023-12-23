@@ -1,6 +1,6 @@
 {
   "name": "javascript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "banggeunho <panggeunho@gmail.com>",
   "homepage": "https://github.com/banggeunho/js-ts-study#readme",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "lerna": "^8.0.1",
-    "typescript": "^0.0.1"
+    "typescript": "^0.0.2"
   },
   "gitHead": "5db23033a024b78ec1c639fdf296470dc5637a34"
 }
